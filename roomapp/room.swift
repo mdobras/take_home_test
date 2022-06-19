@@ -95,9 +95,9 @@ class RoomsModel: ObservableObject{
     @Published var rooms :[WelcomeElement] = []
     
     func reload() async {
-    let url = URL(string: "https://europe-west1-lv-trialwork.cloudfunctions.net/lovooOffice")! // URL
-    let user="lovooTrialUser";// USER NAME
-    let pw="lovoo#2021";      // PW
+    let url = URL(string: "xxxxx")! // URL
+    let user="xxxxx";// USER NAME
+    let pw="xxxxx";      // PW
         
     let authData = (user + ":" + pw).data(using: .utf8)!.base64EncodedString() // Preparation baseAuth
     var request = URLRequest(url:url)
