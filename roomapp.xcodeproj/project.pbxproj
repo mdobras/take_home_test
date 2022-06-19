@@ -11,6 +11,10 @@
 		22DB3552285AE36F005E417F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DB3551285AE36F005E417F /* ContentView.swift */; };
 		22DB3554285AE371005E417F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22DB3553285AE371005E417F /* Assets.xcassets */; };
 		22DB3557285AE371005E417F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22DB3556285AE371005E417F /* Preview Assets.xcassets */; };
+		22DB3562285C3AD6005E417F /* room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DB3561285C3AD6005E417F /* room.swift */; };
+		22DDE253285E4272001BD915 /* SelectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DDE252285E4272001BD915 /* SelectButton.swift */; };
+		22DDE257285F3724001BD915 /* LovooDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DDE256285F3724001BD915 /* LovooDetails.swift */; };
+		22DDE25B285F49DB001BD915 /* RoomRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DDE25A285F49DB001BD915 /* RoomRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		22DB3551285AE36F005E417F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		22DB3553285AE371005E417F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22DB3556285AE371005E417F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22DB3561285C3AD6005E417F /* room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = room.swift; sourceTree = "<group>"; };
+		22DDE252285E4272001BD915 /* SelectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectButton.swift; sourceTree = "<group>"; };
+		22DDE256285F3724001BD915 /* LovooDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LovooDetails.swift; sourceTree = "<group>"; };
+		22DDE25A285F49DB001BD915 /* RoomRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				22DB354F285AE36F005E417F /* roomappApp.swift */,
 				22DB3551285AE36F005E417F /* ContentView.swift */,
+				22DDE25A285F49DB001BD915 /* RoomRow.swift */,
+				22DDE256285F3724001BD915 /* LovooDetails.swift */,
+				22DDE252285E4272001BD915 /* SelectButton.swift */,
+				22DB3561285C3AD6005E417F /* room.swift */,
 				22DB3553285AE371005E417F /* Assets.xcassets */,
 				22DB3555285AE371005E417F /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22DB3562285C3AD6005E417F /* room.swift in Sources */,
+				22DDE257285F3724001BD915 /* LovooDetails.swift in Sources */,
 				22DB3552285AE36F005E417F /* ContentView.swift in Sources */,
+				22DDE253285E4272001BD915 /* SelectButton.swift in Sources */,
+				22DDE25B285F49DB001BD915 /* RoomRow.swift in Sources */,
 				22DB3550285AE36F005E417F /* roomappApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
